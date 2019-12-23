@@ -13,7 +13,7 @@
  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
 </a>
 <a href="https://github.com/Mirinsoft/debotnet/releases" target="_blank">
- <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/roboget/total.svg?style=flat-square" />
+ <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
 </a>
 </p>
 
