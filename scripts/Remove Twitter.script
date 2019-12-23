@@ -1,0 +1,22 @@
+[Info]
+ID=Remove Twitter
+Ver=1.0
+Desc=If you no longer want or use an app, then you could uninstall the app to remove it and free up space on the drive.\n\nThis script will remove the app Twitter from current account only.
+Dev=Mirinsoft
+DevURL=https://www.mirinsoft.com
+WinVer=Compatible with Windows 10
+
+[Scripts]
+File1=Exec,powershell -command "Get-AppxPackage *Twitter* | Remove-AppxPackage"
+
+
+
+
+
+
+
+
+
+
+
+

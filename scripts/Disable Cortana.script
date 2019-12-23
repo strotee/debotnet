@@ -1,0 +1,27 @@
+[Info]
+ID=Disable Cortana
+Ver=1.0
+Desc=With the Anniversary Update, Microsoft hid the option to disable Cortana.\n\nThis script makes it possible again.
+Dev=Federico Dossena
+DevURL=https://github.com/adolfintel/Windows10-Privacy
+WinVer=Compatible with Windows 10
+Warning=Do not attempt to remove the Cortana package using install_wim_tweak or the PowerShell, as it will break Windows Search and you will have to reinstall Windows!
+Evaluation=Recommended
+EvaluationColor=009e5e
+
+[Scripts]
+Task1=DetectRegValue,reg query "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana,STDOUT
+Task2=DetectRegValue,reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" /v BingSearchEnabled,STDOUT
+File1=Exec,reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 0 /f,STDOUT
+File2=Exec,reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" /v BingSearchEnabled /t REG_DWORD /d 0 /f,STDOUT
+
+
+
+
+
+
+
+
+
+
+
