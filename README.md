@@ -55,7 +55,7 @@ Create scripts or keep the [current scripts up to date](https://github.com/Mirin
 Scritps for Debotnet can be written and extended via "scripts", plain text files which define exactly which define exactly which registry keys, files and or/services should be disabled, blocked, deleted etc. and preserved by the program.should preserve.
 
 #### More Information about Debotnet can be found on the [official website](https://www.imirin.com)
-### Several scripts are based upon the Windows 10 privacy guide from @https://github.com/adolfintel/Windows10-Privacy
+#### Several scripts are based upon the Windows 10 privacy guide from @https://github.com/adolfintel/Windows10-Privacy
 
 ## Download 
 
