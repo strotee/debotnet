@@ -20,6 +20,8 @@
 <h4 align="center">&copy Copyright 2019 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
 
 ![alt text](https://www.mirinsoft.com/images/news/Take%20charge%20of%20locking%20down%20your%20privacy%20with%20Debotnet.png)
+
+![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/debotnet-norton-commander.png)
 *Custom templates can be found [here](https://github.com/Mirinsoft/Roboget/blob/master/templates/templates.md)*
 
 ## Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
