@@ -62,3 +62,5 @@ http://www.imirin.com/downloads
 ## Suggesting features / providing feedback
 Please use the [official community](https://www.mirinsoft.com/community)
 
+You can also reach out to me on [Twitter](https://twitter.com/Mirinsoft)
+
