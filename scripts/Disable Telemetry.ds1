@@ -1,0 +1,31 @@
+[Info]
+ID=Disable Telemetry
+Ver=1.0
+Desc=As you use Windows 10, Microsoft will collect usage information. All its options are available in Settings -> Privacy - Feedback and Diagnostics. There you can set the options "Diagnostic and usage data" to Basic, Enhanced and Full.\n\nTo disable Telemetry and Data Collection in Windows 10 Home and Windows 10 Pro, run the following script.
+Dev=Mirinsoft
+DevURL=https://www.mirinsoft.com
+WinVer=Compatible with Windows 10
+Evaluation=Recommended
+EvaluationColor=009e5e
+
+[Code]
+Task1=Exec,net stop DiagTrack,STDOUT
+Task2=Exec,net stop dmwappushsvc,STDOUT
+Task3=DetectRegValue,reg query "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v AllowTelemetry /reg:64,STDOUT
+File1=Exec,reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v AllowTelemetry /t REG_DWORD /d 0 /f /reg:64,STDOUT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+[Info]
+ID=Disable Sync
+Ver=1.0
+Desc=It doesn't really affect you if you're not using a Microsoft Account, but this script will at least disable the Sync settings from the Settings app.
+Dev=Federico Dossena
+DevURL=https://github.com/adolfintel/Windows10-Privacy
+WinVer=Compatible with Windows 10
+Evaluation=Recommended
+EvaluationColor=009e5e
+
+[Code]
+Task1=DetectRegValue,reg query "HKLM\Software\Policies\Microsoft\Windows\SettingSync" /v DisableSettingSync /reg:64,STDOUT
+Task2=DetectRegValue,reg query "HKLM\Software\Policies\Microsoft\Windows\SettingSync" /v DisableSettingSyncUserOverride /reg:64,STDOUT
+File1=Exec,reg add "HKLM\Software\Policies\Microsoft\Windows\SettingSync" /v DisableSettingSync /t REG_DWORD /d 2 /f /reg:64,STDOUT
+File2=Exec,reg add "HKLM\Software\Policies\Microsoft\Windows\SettingSync" /v DisableSettingSyncUserOverride /t REG_DWORD /d 1 /f /reg:64,STDOUT
+
+
+
+
+
+
+
+
+
+
+
+
+

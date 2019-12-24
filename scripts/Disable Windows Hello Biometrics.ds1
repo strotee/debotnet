@@ -1,0 +1,20 @@
+[Info]
+ID=Disable Windows Hello Biometrics
+Ver=1.0
+Desc=Windows Hello biometrics lets you sign in to your devices, apps, online services, and networks using your face, iris, or fingerprint.\n\nWith this script you can disable the Windows Hello Biometrics.
+Dev=Mirinsoft
+DevURL=https://www.mirinsoft.com
+WinVer=Compatible with Windows 10
+Evaluation=Recommended
+EvaluationColor=009e5e
+
+[Code]
+Task1=DetectRegKey,reg query "HKLM\SOFTWARE\Policies\Microsoft\Biometrics" /v Enabled /reg:64,STDOUT
+File1=Exec,reg add "HKLM\SOFTWARE\Policies\Microsoft\Biometrics" /v Enabled /t REG_DWORD /d 0 /f /reg:64,STDOUT
+
+
+
+
+
+
+
