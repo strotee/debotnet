@@ -15,6 +15,9 @@
 <a href="https://github.com/Mirinsoft/debotnet/releases" target="_blank">
  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
 </a>
+<a href="https://twitter.com/Mirinsoft" target="_blank">
+ <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/debotnet.svg?label=Follow" />
+</a>
 </p>
 
 <h4 align="center">&copy Copyright 2019 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
