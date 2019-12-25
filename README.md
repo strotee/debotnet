@@ -9,7 +9,7 @@
 
 <p align="center">
  
-<a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
+<a href="https://github.com/Mirinsoft/debotnet/releases/latest" target="_blank">
  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
 </a>
 <a href="https://github.com/Mirinsoft/debotnet/releases" target="_blank">
