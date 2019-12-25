@@ -9,11 +9,4 @@ Evaluation=Recommended
 EvaluationColor=009e5e
 
 [Code]
-Task1=Echo,net stop DiagTrack.exe
 File1=Exec,net stop DiagTrack.exe,STDOUT
-
-
-
-
-
-
