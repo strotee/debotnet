@@ -1,7 +1,7 @@
 [Info]
 ID=Clean-up Windows
 Ver=1.0
-Desc=This script will download an improved version of Microsoft cleanmgr.exe, called Cleanmgr+ (also from Mirinsoft).\n\nThe tool can perform a search on the hard disk for files that can be deleted from your computer without affecting its functionality or your personal files.
+Desc=With Windows 10 October 2018 update the classic Disk Cleanup tool "cleanmgr.exe" is "deprecated" by Microsoft and replaced by Storage Sense (Open Settings -> Storage > Storage sense).\n\nThis script will download the improved version of Microsoft cleanmgr.exe, called Cleanmgr+ (also from Mirinsoft).\n\nThe tool uses identical technical terms and descriptions as the classic Windows Disk Clean-up utility does. It can perform a search on the hard disk for files that can be deleted from your computer without affecting its functionality or your personal files.
 Dev=Mirinsoft
 DevURL=https://www.mirinsoft.com
 WinVer=Compatible with Windows 10
@@ -10,10 +10,6 @@ EvaluationColor=68217a
 
 [Code]
 File1=GetFile,http://www.imirin.com/files/16/Cleanmgr/1/Cleanmgr.zip
-
-
-
-
 
 
 
