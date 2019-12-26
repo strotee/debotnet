@@ -1,0 +1,12 @@
+[Info]
+ID=Create a System Restore Point
+Ver=1.0
+Desc=This script will use the PowerShell to create a system restore point of your Windows 10 PC.
+Dev=Mirinsoft
+DevURL=https://www.mirinsoft.com
+WinVer=Compatible with Windows 10
+Evaluation=Recommended
+EvaluationColor=009e5e
+
+[Code]
+File1=Exec,powershell.exe -command Checkpoint-Computer -Description "Debotnet" -RestorePointType "MODIFY_SETTINGS",STDOUT
