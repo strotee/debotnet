@@ -9,10 +9,10 @@
 
 <p align="center">
  
-<a href="https://github.com/Mirinsoft/debotnet/releases/latest" target="_blank">
+<a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/Debotnet.svg" />
 </a>
-<a href="https://github.com/Mirinsoft/debotnet/releases" target="_blank">
+<a href="https://github.com/Mirinsoft/Debotnet/releases" target="_blank">
  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
 </a>
 <a href="https://twitter.com/Mirinsoft" target="_blank">
