@@ -1,0 +1,31 @@
+[Info]
+ID=Disable CCleaner Monitoring, Update && telemetry features
+Ver=1.0
+Desc=Since Avast acquired Piriform, the popular system cleaning software CCleaner has become bloated with malware, bundled PUPs (potentially unwanted programs), and an alarming amount of pop-up ads.\n\nIf you're highly dependent on CCleaner you can disable with this script the CCleaner Active Monitoring ("Active Monitoring" feature has been renamed with v5.46 to "Smart Cleaning"), automatic Update check and download function and the privacy option to "Help Improve CCleaner by sending anonymous usage data".
+Dev=Mirinsoft
+DevURL=https://www.mirinsoft.com
+WinVer=Compatible with Windows 10
+Evaluation=Recommended
+EvaluationColor=009e5e
+
+[Code]
+Task1=DetectRegValue,reg query "HKCU\Software\Piriform\CCleaner" /v Monitoring,STDOUT
+Task2=DetectRegValue,reg query "HKCU\Software\Piriform\CCleaner" /v HelpImproveCCleaner,STDOUT
+Task3=DetectRegValue,reg query "HKCU\Software\Piriform\CCleaner" /v SystemMonitoring,STDOUT
+Task4=DetectRegValue,reg query "HKCU\Software\Piriform\CCleaner" /v SystemMonitoringRunningNotification,STDOUT
+Task5=DetectRegValue,reg query "HKCU\Software\Piriform\CCleaner" /v UpdateAuto,STDOUT
+Task6=DetectRegValue,reg query "HKCU\Software\Piriform\CCleaner" /v UpdateCheck,STDOUT
+Task7=Exec,TASKKILL /F /FI "IMAGENAME eq CCleaner*",STDOUT
+Task8=Exec,SCHTASKS /Change /TN "CCleaner Update" /DISABLE,STDOUT
+File1=Exec,reg add "HKCU\Software\Piriform\CCleaner" /v "Monitoring" /t REG_SZ /d 0 /f,STDOUT
+File8=Exec,reg add "HKCU\Software\Piriform\CCleaner" /v "HelpImproveCCleaner" /t REG_SZ /d 0 /f,STDOUT
+File3=Exec,reg add "HKCU\Software\Piriform\CCleaner" /v "SystemMonitoring" /t REG_SZ /d 0 /f,STDOUT
+File4=Exec,reg add "HKCU\Software\Piriform\CCleaner" /v "SystemMonitoringRunningNotification" /t REG_SZ /d 0 /f,STDOUT
+File5=Exec,reg add "HKCU\Software\Piriform\CCleaner" /v "UpdateAuto" /t REG_SZ /d 0 /f,STDOUT
+File6=Exec,reg add "HKCU\Software\Piriform\CCleaner" /v "UpdateCheck" /t REG_SZ /d 0 /f,STDOUT
+
+
+
+
+
+
