@@ -20,7 +20,7 @@ Footer=012456
 FooterFontColor=ffffff
 Settings=EDEBE9
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/powershell.png)
+![alt text](https://github.com/Mirinsoft/Debotnet/blob/master/templates/powershell.png)
 
 Norton Commander 
 ---
