@@ -20,7 +20,7 @@ Footer=012456
 FooterFontColor=ffffff
 Settings=EDEBE9
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/debotnet-powershell.png)
+![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/powershell.png)
 
 Norton Commander 
 ---
@@ -42,7 +42,7 @@ Footer=000000
 FooterFontColor=54FEFC
 Settings=EDEBE9
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/norton-commander.png)
+![alt text](https://github.com/Mirinsoft/Debotnet/blob/master/templates/norton-commander.png)
 
 Alien
 ---
