@@ -1,5 +1,5 @@
 [Info]
-ID=Tips 
+ID=Remove Tips 
 Ver=1.0
 Desc=If you no longer want or use an app, then you could uninstall the app to remove it and free up space on the drive.\n\nThis script will remove the app Tips from current account only.
 Dev=Mirinsoft
@@ -8,6 +8,7 @@ WinVer=Compatible with Windows 10
 
 [Code]
 File1=Exec,powershell -command "Get-AppxPackage *Microsoft.Getstarted* | Remove-AppxPackage"
+
 
 
 
