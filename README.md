@@ -16,7 +16,7 @@
  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
 </a>
 <a href="https://twitter.com/Mirinsoft" target="_blank">
- <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/debotnet.svg?label=Follow" />
+ <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
 </a>
 </p>
 
