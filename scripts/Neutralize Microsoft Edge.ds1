@@ -10,27 +10,9 @@ EvaluationColor=ffd45e
 
 [Code]
 Task1=TaskKill,browser_broker.exe,WARNING
-Task2=TaskKill,RuntimeBroker.exe|,WARNING
+Task2=TaskKill,RuntimeBroker.exe,WARNING
 Task3=TaskKill,MicrosoftEdge.exe,WARNING
 Task4=TaskKill,MicrosoftEdgeCP.exe,WARNING
 Task5=TaskKill,MicrosoftEdgeSH.exe,WARNING
-File1=Exec,mv C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe_BAK,STDOUT
-File2=Exec,reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdge.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f /reg:64,STDOUT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+File1=Run,mv C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe_BAK,STDOUT
+File2=Reg,add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MicrosoftEdge.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f,STDOUT
