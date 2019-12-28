@@ -9,9 +9,4 @@ Evaluation=Privacy App
 EvaluationColor=68217a
 
 [Code]
-File1=GetFile,http://www.imirin.com/files/16/Cleanmgr/1/Cleanmgr.zip
-
-
-
-
-
+File1=Get,http://www.imirin.com/files/16/Cleanmgr/1/Cleanmgr.zip

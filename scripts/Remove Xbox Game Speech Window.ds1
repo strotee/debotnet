@@ -7,7 +7,7 @@ DevURL=https://www.mirinsoft.com
 WinVer=Compatible with Windows 10
 
 [Code]
-File1=Exec,owershell -command "Get-AppxPackage *Microsoft.XboxSpeechToTextOverlay* | Remove-AppxPackage"
+File1=Run,owershell -command "Get-AppxPackage *Microsoft.XboxSpeechToTextOverlay* | Remove-AppxPackage"
 
 
 

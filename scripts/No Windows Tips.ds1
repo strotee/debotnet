@@ -9,28 +9,13 @@ Evaluation=Recommended
 EvaluationColor=009e5e
 
 [Code]
-Task1=DetectRegValue,reg query "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableSoftLanding /reg:64,STDOUT
-Task2=DetectRegValue,reg query "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsSpotlightFeatures /reg:64,STDOUT
-Task3=DetectRegValue,reg query "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsConsumerFeatures /reg:64,STDOUT
-Task4=DetectRegValue,reg query "HKLM\Software\Policies\Microsoft\Windows\DataCollection" /v DoNotShowFeedbackNotifications /reg:64,STDOUT
-Task5=DetectRegValue,reg query "HKLM\Software\Policies\Microsoft\WindowsInkWorkspace" /v AllowSuggestedAppsInWindowsInkWorkspace /reg:64,STDOUT
-File1=Exec,reg add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableSoftLanding /t REG_DWORD /d 1 /f /reg:64,STDOUT
-File2=Exec,reg add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsSpotlightFeatures /t REG_DWORD /d 1 /f /reg:64,STDOUT
-File3=Exec,reg add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsConsumerFeatures /t REG_DWORD /d 1 /f /reg:64,STDOUT
-File4=Exec,reg add "HKLM\Software\Policies\Microsoft\Windows\DataCollection" /v DoNotShowFeedbackNotifications /t REG_DWORD /d 1 /f /reg:64,STDOUT
-File5=Exec,reg add "HKLM\Software\Policies\Microsoft\WindowsInkWorkspace" /v AllowSuggestedAppsInWindowsInkWorkspace /t REG_DWORD /d 0 /f /reg:64,STDOUT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Task1=Try,query "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableSoftLanding,STDOUT
+Task2=Try,query "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsSpotlightFeatures,STDOUT
+Task3=Try,query "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsConsumerFeatures,STDOUT
+Task4=Try,query "HKLM\Software\Policies\Microsoft\Windows\DataCollection" /v DoNotShowFeedbackNotifications,STDOUT
+Task5=Try,query "HKLM\Software\Policies\Microsoft\WindowsInkWorkspace" /v AllowSuggestedAppsInWindowsInkWorkspace,STDOUT
+File1=Reg,add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableSoftLanding /t REG_DWORD /d 1 /f,STDOUT
+File2=Reg,add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsSpotlightFeatures /t REG_DWORD /d 1 /f,STDOUT
+File3=Reg,add "HKLM\Software\Policies\Microsoft\Windows\CloudContent" /v DisableWindowsConsumerFeatures /t REG_DWORD /d 1 /f,STDOUT
+File4=Reg,add "HKLM\Software\Policies\Microsoft\Windows\DataCollection" /v DoNotShowFeedbackNotifications /t REG_DWORD /d 1 /f,STDOUT
+File5=Reg,add "HKLM\Software\Policies\Microsoft\WindowsInkWorkspace" /v AllowSuggestedAppsInWindowsInkWorkspace /t REG_DWORD /d 0 /f,STDOUT

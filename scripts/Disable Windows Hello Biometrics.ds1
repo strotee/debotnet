@@ -9,12 +9,5 @@ Evaluation=Recommended
 EvaluationColor=009e5e
 
 [Code]
-Task1=DetectRegKey,reg query "HKLM\SOFTWARE\Policies\Microsoft\Biometrics" /v Enabled /reg:64,STDOUT
-File1=Exec,reg add "HKLM\SOFTWARE\Policies\Microsoft\Biometrics" /v Enabled /t REG_DWORD /d 0 /f /reg:64,STDOUT
-
-
-
-
-
-
-
+Task1=Try,query "HKLM\SOFTWARE\Policies\Microsoft\Biometrics" /v Enabled,STDOUT
+File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Biometrics" /v Enabled /t REG_DWORD /d 0 /f,STDOUT

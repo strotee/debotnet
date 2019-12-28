@@ -9,19 +9,5 @@ Evaluation=Custom
 EvaluationColor=562765
 
 [Code]
-Task1=DetectRegValue,reg query "HKLM\SOFTWARE\Microsoft" /v  DoNotUpdateToEdgeWithChromium /reg:64,STDOUT
-File1=Exec,reg add "HKLM\SOFTWARE\Microsoft" /v  DoNotUpdateToEdgeWithChromium /t REG_DWORD /d 1 /f /reg:64,STDOUT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Task1=Try,query "HKLM\SOFTWARE\Microsoft" /v  DoNotUpdateToEdgeWithChromium,STDOUT
+File1=Reg,add "HKLM\SOFTWARE\Microsoft" /v  DoNotUpdateToEdgeWithChromium /t REG_DWORD /d 1 /f,STDOUT

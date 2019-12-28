@@ -9,22 +9,5 @@ Evaluation=Limited
 EvaluationColor=ffd45e
 
 [Code]
-Task1=DetectRegValue,reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode /reg:64,STDOUT
-File1=Exec,reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode /t REG_DWORD /d 0 /f /reg:64,STDOUT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Task1=Try,query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode,STDOUT
+File1=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode /t REG_DWORD /d 0 /f,STDOUT

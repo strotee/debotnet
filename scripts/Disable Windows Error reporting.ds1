@@ -9,13 +9,7 @@ Evaluation=Recommended
 EvaluationColor=009e5e
 
 [Code]
-Task1=DetectRegValue,reg query "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting" /v Disabled /reg:64,STDOUT
-Task2=DetectRegValue,reg query "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disabled /reg:64,STDOUT
-File1=Exec,reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 1 /f /reg:64,STDOUT
-File2=Exec,reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 1 /f /reg:64,STDOUT
-
-
-
-
-
-
+Task1=Try,query "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting" /v Disabled,STDOUT
+Task2=Try,query "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disabled,STDOUT
+File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 1 /f,STDOUT
+File2=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 1 /f,STDOUT
