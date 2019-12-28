@@ -20,7 +20,7 @@
 </a>
 </p>
 
-<h4 align="center">&copy Copyright 2019 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
+<h4 align="center">&copy Copyright 2020 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
 
 ![alt text](https://www.mirinsoft.com/images/news/Take%20charge%20of%20locking%20down%20your%20privacy%20with%20Debotnet.png)
 
