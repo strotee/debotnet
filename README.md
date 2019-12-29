@@ -50,12 +50,12 @@ Scritps for Debotnet can be written and extended via "scripts", plain text files
 #### More Information about Debotnet can be found on the [official website](https://www.imirin.com)
 #### Several scripts are based upon the Windows 10 privacy guide from @https://github.com/adolfintel/Windows10-Privacy
 
-## Download 
+# Download 
 
 #### Debotnet
 http://www.imirin.com/downloads
 
-## Suggesting features / providing feedback
+# Suggesting features / providing feedback
 Please use the [official community](https://www.mirinsoft.com/community)
 
 You can also reach out to me on Twitter <a href="https://twitter.com/Mirinsoft" target="_blank">
