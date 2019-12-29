@@ -1,3 +1,5 @@
+`Currently are 90 privacy tweaks available (29-12-2019)`
+
 <a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
 </a>
@@ -21,7 +23,6 @@ Debotnet - Reclaim your privacy in Windows 10 again!
 
 <p align="center">
 <sup>A free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</sup>
-`Currently are 90 privacy tweaks available (29-12-2019)`
 
 </p>
 
