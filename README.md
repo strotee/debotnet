@@ -1,24 +1,13 @@
-<h1 align="center"> Debotnet </h1>
-<h3 align="center"> Reclaim your privacy in Windows 10 again</h3>
+<h1> Debotnet </h1>
+<h3> Reclaim your privacy in Windows 10 again</h3>
 
-<p align="center">
 <a href="https://github.com/Mirinsoft/Debotnet" target="_blank">
 <img align="center" alt="Debotnet" src="https://github.com/Mirinsoft/Debotnet/raw/master/debotnet.png" width="150" height="150" />
 </a>
-</p>
-
-<p align="center">
  
-<a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
- <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
-</a>
-<a href="https://github.com/Mirinsoft/Debotnet/releases" target="_blank">
- <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
-</a>
-<a href="https://twitter.com/Mirinsoft" target="_blank">
- <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
-</a>
-</p>
+| Available privacy tweaks | Downloads | Latest version |
+| ------------ | ------- | ---- |
+| [90 scripts](https://github.com/mirinsoft/debotnet/tree/master/scripts) |  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" /> |  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" /> |
 
 ![alt text](https://www.mirinsoft.com/images/news/debotnet-intro.png)
 
@@ -63,6 +52,9 @@ http://www.imirin.com/downloads
 ## Suggesting features / providing feedback
 Please use the [official community](https://www.mirinsoft.com/community)
 
-You can also reach out to me on [Twitter](https://twitter.com/Mirinsoft)
+You can also reach out to me on Twitter <a href="https://twitter.com/Mirinsoft" target="_blank">
+ <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
+</a>
 
 <h4 align="center">&copy Copyright 2020 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
+
