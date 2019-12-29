@@ -18,7 +18,7 @@
       height="38"
       width="38">
 </sub>
-Debotnet - Reclaim your privacy in Windows 10 again!
+Debotnet - Your copy of Windows 10 is now Debotnetted!
 </h1>
 
 <p align="center">
