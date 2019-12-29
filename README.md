@@ -20,8 +20,6 @@
 </a>
 </p>
 
-<h4 align="center">&copy Copyright 2020 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
-
 ![alt text](https://www.mirinsoft.com/images/news/debotnet-intro.png)
 
 ![alt text](https://www.mirinsoft.com/images/news/debotnet-custom-ui.png)
@@ -67,3 +65,4 @@ Please use the [official community](https://www.mirinsoft.com/community)
 
 You can also reach out to me on [Twitter](https://twitter.com/Mirinsoft)
 
+<h4 align="center">&copy Copyright 2020 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
