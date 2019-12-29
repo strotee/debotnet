@@ -7,6 +7,11 @@
       width="38">
 </sub>
 Debotnet - Reclaim your privacy in Windows 10 again!
+<br>
+
+<sup>A free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</sup>
+
+
 </h1>
 
 *** 
