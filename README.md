@@ -76,6 +76,7 @@ Please use the [official community](https://www.mirinsoft.com/community)
 #### More Information about Debotnet can be found on the [official website](https://www.imirin.com)
 #### Several scripts are based upon the Windows 10 privacy guide from @https://github.com/adolfintel/Windows10-Privacy
 
+<br>
 
 <p align="center">
 <sup>&copy Copyright 2020 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></sup>
