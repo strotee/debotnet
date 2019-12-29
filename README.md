@@ -21,8 +21,6 @@ Debotnet - Reclaim your privacy in Windows 10 again!
 
 <p align="center">
 <sup>A free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</sup>
-Available privacy tweaks [90 scripts](https://github.com/mirinsoft/debotnet/tree/master/scripts)
-
 `Currently are 90 privacy tweaks available (29-12-2019)`
 
 </p>
