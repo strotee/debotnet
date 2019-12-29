@@ -1,3 +1,13 @@
+<a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
+ <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
+</a>
+<a href="https://github.com/Mirinsoft/Debotnet/releases" target="_blank">
+ <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
+</a>
+<a href="https://twitter.com/Mirinsoft" target="_blank">
+ <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
+</a>
+</p>
 
 *** 
 <h1 align="center">
@@ -8,15 +18,16 @@
 </sub>
 Debotnet - Reclaim your privacy in Windows 10 again!
 </h1>
+
 <p align="center">
 <sup>A free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</sup>
+Available privacy tweaks [90 scripts](https://github.com/mirinsoft/debotnet/tree/master/scripts)
+
+`Currently are 90 privacy tweaks available (29-12-2019)`
+
 </p>
 
 *** 
-
-| Available privacy tweaks | Downloads | Latest version |
-| ------------ | ------- | ---- |
-| [90 scripts](https://github.com/mirinsoft/debotnet/tree/master/scripts) |  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" /> |  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" /> |
 
 
 ![alt text](https://www.mirinsoft.com/images/news/debotnet-intro.png)
