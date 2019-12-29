@@ -1,10 +1,12 @@
 <h1> Debotnet </h1>
 <h3> Reclaim your privacy in Windows 10 again</h3>
 
+<p>
 <a href="https://github.com/Mirinsoft/Debotnet" target="_blank">
 <img align="center" alt="Debotnet" src="https://github.com/Mirinsoft/Debotnet/raw/master/debotnet.png" width="150" height="150" />
 </a>
- 
+</p>
+
 | Available privacy tweaks | Downloads | Latest version |
 | ------------ | ------- | ---- |
 | [90 scripts](https://github.com/mirinsoft/debotnet/tree/master/scripts) |  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" /> |  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" /> |
