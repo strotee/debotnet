@@ -5,7 +5,7 @@ Desc=With the Anniversary Update, Microsoft hid the option to disable Cortana. \
 Dev=Federico Dossena
 DevURL=https://github.com/adolfintel/Windows10-Privacy
 WinVer=Compatible with Windows 10
-Warning=Do not attempt to remove the Cortana package using install_wim_tweak or the PowerShell, as it will break Windows Search and you will have to reinstall Windows!
+Warning=Do not attempt to remove the Cortana package using install_wim_tweak or the PowerShell, as it will break Windows Search and you will have to reinstall Windows! Using this script is the only safe way.
 Evaluation=Recommended
 EvaluationColor=009e5e
 
