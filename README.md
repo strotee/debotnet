@@ -73,10 +73,6 @@ http://www.imirin.com/downloads
 ## Suggesting features / providing feedback
 Please use the [official community](https://www.mirinsoft.com/community)
 
-You can also reach out to me on Twitter <a href="https://twitter.com/Mirinsoft" target="_blank">
- <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
-</a>
-
 ## Additional information
 
 #### More Information about Debotnet can be found on the [official website](https://www.imirin.com)
