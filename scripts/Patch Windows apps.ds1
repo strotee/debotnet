@@ -10,6 +10,11 @@ EvaluationColor=68217a
 
 [Code]
 File1=Get,https://patchmypc.net/freeupdater/PatchMyPC.exe
+Task1=Start(),PatchMyPC.exe
+
+
+
+
 
 
 
