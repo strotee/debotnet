@@ -30,7 +30,7 @@ This qualifies Windows 10 as malware, and more specifically, a botnet.
 
 #### You can read a more complete introduction in the blog post [here](https://www.mirinsoft.com/blog/news/60-take-charge-of-locking-down-your-privacy-with-debotnet).
 
-# Features
+Features
 --------
 * Disable telemetry and online features, which send your data (sensitive and not) to Microsoft
 * Choose which unwanted functions you wish to disable
@@ -42,24 +42,26 @@ This qualifies Windows 10 as malware, and more specifically, a botnet.
 * Portable
 * 100% Free Software ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
-# Contribute to Debotnet!
+## Contribute to Debotnet!
 Create scripts or keep the [current scripts up to date](https://github.com/Mirinsoft/Debotnet/blob/master/scripts/)
 
 Scritps for Debotnet can be written and extended via "scripts", plain text files which define exactly which define exactly which registry keys, files and or/services should be disabled, blocked, deleted etc. and preserved by the program.should preserve.
 
-#### More Information about Debotnet can be found on the [official website](https://www.imirin.com)
-#### Several scripts are based upon the Windows 10 privacy guide from @https://github.com/adolfintel/Windows10-Privacy
-
-# Download 
+## Download 
 
 #### Debotnet
 http://www.imirin.com/downloads
 
-# Suggesting features / providing feedback
+## Suggesting features / providing feedback
 Please use the [official community](https://www.mirinsoft.com/community)
 
 You can also reach out to me on Twitter <a href="https://twitter.com/Mirinsoft" target="_blank">
  <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
 </a>
+
+## Additional information
+
+#### More Information about Debotnet can be found on the [official website](https://www.imirin.com)
+#### Several scripts are based upon the Windows 10 privacy guide from @https://github.com/adolfintel/Windows10-Privacy
 
 <h4 align="center">&copy Copyright 2020 <a href="https://www.mirinsoft.com" target="_blank">Mirinsoft</a></h4>
