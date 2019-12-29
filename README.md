@@ -20,9 +20,13 @@
 
 The Windows 10 default privacy settings leave a lot to be desired when it comes to protecting you and your private information. Whenever I set up a new computer or update a current setup for my family or job, I always carefully go through the privacy settings for each install, making sure to lock it down to make it as private as possible.
 
-Windows 10 has raised several concerns about privacy due to the fact that it has a lot of telemetry and online features, which send your data (sensitive and not) to Microsoft and can't be disabled.
+Windows 10 has raised several concerns about privacy due to the fact that it has a lot of telemetry and online features, which send your data (sensitive and not) to Microsoft and can't be disabled, which means Microsoft can:
 
-If you haven’t yet installed Windows 10, or if you’re planning on buying a PC with Windows 10 already installed, do NOT use the “Express Settings” option when you do your initial setup. Instead, select “Custom Settings” so you can take charge of locking down your privacy from the get-go. 
+* Run software on your computer without your consent
+* Get data from your computer without your consent
+* Remove software and files from your computer without your consent
+
+This qualifies Windows 10 as malware, and more specifically, a botnet.
 
 #### You can read a more complete introduction in the blog post [here](https://www.mirinsoft.com/blog/news/60-take-charge-of-locking-down-your-privacy-with-debotnet).
 
