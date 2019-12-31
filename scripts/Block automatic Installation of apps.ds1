@@ -8,6 +8,10 @@ WinVer=Compatible with Windows 10
 Evaluation=Recommended
 EvaluationColor=009e5e
 
+[Variables]
+CheckKey=query "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SilentInstalledAppsEnabled
+BlockAppsAutoInstall=add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SilentInstalledAppsEnabled /t REG_DWORD /d 0 /f
+
 [Code]
-Task1=Try,query "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SilentInstalledAppsEnabled,STDOUT
-File1=Reg,add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager" /v SilentInstalledAppsEnabled /t REG_DWORD /d 0 /f,STDOUT
+Task1=Try,%CheckKey%,STDOUT
+File1=Reg,%BlockAppsAutoInstall%,STDOUT
