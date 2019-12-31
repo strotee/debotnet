@@ -7,7 +7,9 @@ DevURL=https://www.mirinsoft.com
 WinVer=Compatible with Windows 10
 
 [Code]
-File1=Run,powershell -command "Get-AppxPackage *king.com.CandyCrushSodaSaga* | Remove-AppxPackage"
+File1=Run,powershell -command "Get-AppxPackage *candycrush* | Remove-AppxPackage"
+
+
 
 
 
