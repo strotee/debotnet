@@ -9,4 +9,5 @@ Evaluation=Recommended
 EvaluationColor=009e5e
 
 [Code]
-File1=Run,powershell.exe -command Checkpoint-Computer -Description "Debotnet" -RestorePointType "MODIFY_SETTINGS",STDOUT
+File1=Run,powershell -command Checkpoint-Computer -Description "Debotnet" -RestorePointType "MODIFY_SETTINGS",STDOUT
+
