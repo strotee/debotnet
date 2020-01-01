@@ -1,4 +1,4 @@
-`Currently are 90 privacy tweaks available (29-12-2019)`
+`Currently are 99 privacy tweaks available (01-01-2020)`
 
 <a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
