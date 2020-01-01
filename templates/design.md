@@ -1,7 +1,7 @@
 # How to change the Debotnet design?
 To enable another design, just open Settings > Change design.
 
-All .designs are located in \bin\ directory of Debotnet and can be viewed as plain text, with an editor of your choice.
+All design files are located in \bin\ directory of Debotnet and can be viewed as plain text, with an editor of your choice.
 You will find here custom design code. To install it, just copy one of the following [Template] sections into a Text file, save it as .DESIGN filetype and move it to the above mentioned directory of Debotnet. You're done!
 
 Windows PowerShell
