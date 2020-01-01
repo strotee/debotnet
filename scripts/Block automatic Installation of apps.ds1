@@ -15,3 +15,4 @@ BlockAppsAutoInstall=add "HKCU\Software\Microsoft\Windows\CurrentVersion\Content
 [Code]
 Task1=Try,%CheckKey%,STDOUT
 File1=Reg,%BlockAppsAutoInstall%,STDOUT
+

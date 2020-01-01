@@ -46,4 +46,5 @@ Task34=Run,schtasks /Change /TN "\Microsoft\Windows\Subscription\LicenseAcquisit
 Task35=Run,schtasks /Change /TN "\Microsoft\Windows\Diagnosis\RecommendedTroubleshootingScanner" /disable,STDOUT
 Task36=Run,schtasks /Change /TN "\Microsoft\Windows\Diagnosis\Scheduled" /disable,STDOUT
 Task38=Run,schtasks /Change /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo" /disable,STDOUT
-File1=Run,del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*",STDOUT
+File1=Run,del /F /Q "C:\Windows\SysNative\Tasks\Microsoft\Windows\SettingSync\*"
+File2=Run,del /F /Q "C:\Windows\System32\Tasks\Microsoft\Windows\SettingSync\*"
