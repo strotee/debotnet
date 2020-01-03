@@ -94,8 +94,8 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 
 ## Additional information
 
-#### More Information about Debotnet can be found on the [official website](https://www.mirinsoft.com/ms-apps/debotnet)
-#### Several scripts are based upon the Windows 10 privacy guide from @https://github.com/adolfintel/Windows10-Privacy
+More Information about Debotnet can be found on the [official website](https://www.mirinsoft.com/ms-apps/debotnet)
+everal scripts are based upon the Windows 10 privacy guide from Federico Dossena @https://github.com/adolfintel/Windows10-Privacy
 
 <br>
 
