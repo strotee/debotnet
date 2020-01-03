@@ -1,5 +1,12 @@
-`Currently are 99 privacy tweaks available (01-01-2020)`
+ `Currently are 99 privacy tweaks available (01-01-2020)`
 
+<a href="https://github.com/mirinsoft/debotnet/commits/master">
+<img src="https://img.shields.io/github/last-commit/mirinsoft/debotnet.svg?style=flat-square&logo=github&logoColor=white"
+alt="GitHub last commit">
+<a href="https://github.com/mirinsoft/debotnet/issues">
+<img src="https://img.shields.io/github/issues-raw/mirinsoft/debotnet.svg?style=flat-square&logo=github&logoColor=white"
+alt="GitHub issues">   
+ 
 <a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
  <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
 </a>
@@ -9,6 +16,7 @@
 <a href="https://twitter.com/Mirinsoft" target="_blank">
  <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
 </a>
+
 </p>
 
 *** 
