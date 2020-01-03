@@ -57,9 +57,8 @@ Features
 * Modern and familiar UI, with [template support](https://github.com/Mirinsoft/Roboget/blob/master/templates/templates.md)
 * Small footprint. No installation required.
 * Portable
-* 100% Free Software ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
-## How does it work?
+## How does it work
 As above mentioned Debotnet's main tools (in this case the scripts for debotnetting Windows) are not hard coded. Debotnet is based upon simple .DS1 files which define exactly which registry keys, files and or/services should be disabled, blocked, deleted etc. and preserved by the program. These script files allows you to execute command-line tools and parameter and also simple PowerShell code.
 
 Here is a simple script for debotnetting a part of Windows.
@@ -92,11 +91,12 @@ http://www.imirin.com/downloads
 ## Suggesting features / providing feedback
 Please use the [official community](https://www.mirinsoft.com/community) or report an [Issue on GitHub](https://github.com/mirinsoft/debotnet/issues/new)
 
-## Additional information
+## Acknowledgments
+* More Information about Debotnet can be found on the [official website](https://www.mirinsoft.com/ms-apps/debotnet)
+* Several scripts are based upon the Windows 10 privacy guide from Federico Dossena @https://github.com/adolfintel/Windows10-Privacy
 
-More Information about Debotnet can be found on the [official website](https://www.mirinsoft.com/ms-apps/debotnet)
-
-Several scripts are based upon the Windows 10 privacy guide from Federico Dossena @https://github.com/adolfintel/Windows10-Privacy
+## License
+100% Free Software ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
 <br>
 
