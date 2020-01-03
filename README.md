@@ -90,7 +90,7 @@ File8=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v Sch
 http://www.imirin.com/downloads
 
 ## Suggesting features / providing feedback
-Please use the [official community](https://www.mirinsoft.com/community)
+Please use the [official community](https://www.mirinsoft.com/community) or report an [Issue on GitHub](https://github.com/mirinsoft/debotnet/issues/new)
 
 ## Additional information
 
