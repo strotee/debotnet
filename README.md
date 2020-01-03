@@ -30,8 +30,6 @@ Debotnet - Your copy of Windows 10 is now Debotnetted!
 
 
 ![alt text](https://www.mirinsoft.com/images/news/debotnet-intro.png)
-
-![alt text](https://www.mirinsoft.com/images/news/debotnet-custom-ui.png)
 *Custom templates can be found [here](https://github.com/mirinsoft/debotnet/blob/master/templates/design.md)*
 
 ## Debotnet is a free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
