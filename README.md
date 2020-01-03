@@ -60,9 +60,9 @@ Features
 * 100% Free Software ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
 ## How does it work?
-As above mentioned Debotnet's main tools (in this case the scripts for debotnetting Windows) are not hard coded. Debotnet is based upon simple .DS1 files which define exactly which registry keys, files and or/services should be disabled, blocked, deleted etc. and preserved by the program.
+As above mentioned Debotnet's main tools (in this case the scripts for debotnetting Windows) are not hard coded. Debotnet is based upon simple .DS1 files which define exactly which registry keys, files and or/services should be disabled, blocked, deleted etc. and preserved by the program. These script files allows you to execute command-line tools and parameter and also simple PowerShell code.
 
-Here is a simple script for debotnetting a part of Windows
+Here is a simple script for debotnetting a part of Windows.
 ```
 [Info]
 ID=No more forced updates
