@@ -113,6 +113,4 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 
 <br>
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
-
-by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as little apps as possible").
+Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as little apps as possible").
