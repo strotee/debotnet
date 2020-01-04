@@ -63,7 +63,7 @@ Features
 * Simple scripting engine for adding custom privacy rules
 * Debug mode. E.g. the Test mode lets you see which values are twisted in registry or commands executed
 * Scripts updated on GitHub
-* Modern and familiar UI, with [template support](https://github.com/Mirinsoft/Roboget/blob/master/templates/templates.md)
+* Modern and familiar UI, with [template support](https://github.com/mirinsoft/debotnet/blob/master/templates/design.md)
 * Small footprint. No installation required.
 * Portable
 
