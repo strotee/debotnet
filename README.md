@@ -33,7 +33,7 @@ Debotnet - Your copy of Windows 10 is now Debotnetted!
 </h1>
 
 <p align="center">
-<sup>A free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.</sup>
+A free and portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
 
 </p>
 
