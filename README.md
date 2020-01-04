@@ -109,7 +109,7 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 * Several scripts are based upon the Windows 10 privacy guide from Federico Dossena @https://github.com/adolfintel/Windows10-Privacy
 
 ## License
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-orange.svg?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+100% Free, also for commercial purposes
 
 <br>
 
