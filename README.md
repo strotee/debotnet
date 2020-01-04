@@ -19,6 +19,9 @@ alt="GitHub issues">
 <a href="https://twitter.com/intent/tweet?text=Reclaim your Windows 10 privacy with Debotnet!&url=https%3A%2F%2Fgithub.com%2Fmirinsoft%2Fdebotnet">
 <img src="https://img.shields.io/twitter/url/https/github.com/mirinsoft/debotnet.svg?style=flat-square&logo=twitter"
 alt="GitHub tweet">
+ 
+<a href="https://twitter.com/intent/follow?screen_name=Mirinsoft">
+ <img src="https://img.shields.io/twitter/follow/Mirinsoft?style=social&logo=twitter"alt="follow on Twitter"></a>
 
 </p>
 
@@ -117,7 +120,3 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 <br>
 
 Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as little apps as possible").
-
-<a href="https://twitter.com/Mirinsoft" target="_blank">
- <img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/Mirinsoft.svg?label=Follow" />
-</a>
