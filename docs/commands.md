@@ -13,3 +13,11 @@ Command| Does...
 `TaskKill`|Kill task with name or PID in command-line
 `rm`|Deletes a file
 `rmdir`|Deletes a directory
+
+### List of app parameter available presently
+
+Parameter| Does...
+:-----:|:-----:
+`STDOUT (default switch)`|Captures the console output to Debotnet
+`SHOWCLI`|Redirects the ouput to cmd.exe and shows the command prompt during execution
+`(none parameter)`|Performs the command-line tasks and without output
