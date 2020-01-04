@@ -99,7 +99,10 @@ File8=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v Sch
 ```
 
 ## Download 
-http://www.imirin.com/downloads
+* (Direct) http://www.imirin.com/files/37/Debotnet/51/Debotnet.zip
+* (Mirror) https://www.mirinsoft.com/download/debotnet 
+* (Mirrror) https://github.com/mirinsoft/debotnet/releases
+
 
 ## Suggesting features / providing feedback
 Please use the [official community](https://www.mirinsoft.com/community) or report an [Issue on GitHub](https://github.com/mirinsoft/debotnet/issues/new)
