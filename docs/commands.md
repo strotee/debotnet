@@ -20,4 +20,4 @@ Parameter| Does...
 :-----:|:-----:
 `STDOUT (default switch)`|Captures the console output to Debotnet
 `SHOWCLI`|Redirects the ouput to cmd.exe and shows the command prompt during execution
-`(none parameter)`|Performs the command-line tasks without output
+`(none parameter)`|Performs the command-line tasks silent without output
