@@ -13,6 +13,7 @@ The software is being licensed to you free of charge for your private and also c
 In last case, please consider supporting the Software via any amount of Donation.
 
 DISTRIBUTION
+
 You are free to publish or share the Software publicly with others. 
 You may modify (add scripts, designs and 3rd party apps), copy, redistribute and build upon the material in any medium or format.
 
