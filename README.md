@@ -1,4 +1,5 @@
  `Currently are 99 privacy tweaks available (01-01-2020)`
+ Be sure to ⭐️ Debotnet's repo so you can keep up to date on releases and progress!
  
 <a href="https://github.com/mirinsoft/debotnet/commits/master">
 <img src="https://img.shields.io/github/last-commit/mirinsoft/debotnet.svg?style=flat-square&logo=github&logoColor=white"
