@@ -43,20 +43,6 @@ A free and portable tool for controlling Windows 10's many privacy-related setti
 
 </p>
 
-<p align="center">
-	<strong>
-		<a href="https://www.mirinsoft.com/blog/news/60-take-charge-of-locking-down-your-privacy-with-debotnet">Website</a>
-		•
-		<a href="https://github.com/mirinsoft/debotnet/tree/master/scripts">Scripts</a>
-		•
-		<a href="https://github.com/mirinsoft/debotnet/tree/master/templates">Designs</a>
-		•
-		<a href="https://github.com/mirinsoft/debotnet/tree/master/docs">Docs</a>
-		•
-		<a href="https://github.com/mirinsoft/debotnet/releases">Download</a>
-	</strong>
-</p>
-
 *** 
 
 
@@ -136,3 +122,18 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 <br>
 
 Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as little apps as possible"). 
+
+
+<p align="center">
+	<strong>
+		<a href="https://www.mirinsoft.com/blog/news/60-take-charge-of-locking-down-your-privacy-with-debotnet">Website</a>
+		•
+		<a href="https://github.com/mirinsoft/debotnet/tree/master/scripts">Scripts</a>
+		•
+		<a href="https://github.com/mirinsoft/debotnet/tree/master/templates">Designs</a>
+		•
+		<a href="https://github.com/mirinsoft/debotnet/tree/master/docs">Docs</a>
+		•
+		<a href="https://github.com/mirinsoft/debotnet/releases">Download</a>
+	</strong>
+</p>
