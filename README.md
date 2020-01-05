@@ -33,6 +33,8 @@ alt="GitHub tweet">
 		•
 		<a href="https://github.com/mirinsoft/debotnet/tree/master/scripts">Scripts</a>
 		•
+		<a href="https://github.com/mirinsoft/debotnet/tree/master/templates">Designs</a>
+		•
 		<a href="https://github.com/mirinsoft/debotnet/tree/master/docs">Docs</a>
 		•
 		<a href="https://github.com/mirinsoft/debotnet/releases">Download</a>
