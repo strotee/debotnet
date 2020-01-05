@@ -121,6 +121,4 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 
 <br>
 
-<p align="center"> 
 Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as little apps as possible"). 
-</p>
