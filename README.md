@@ -25,18 +25,6 @@ alt="GitHub tweet">
 
 </p>
   
-  
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#features">Features</a> •
-  <a href="#🔨usage">Usage</a> •
-  <a href="#example">Example</a> •
-  <a href="#download">Download</a> •
-  <a href="#author">Feedback</a> •
-  <a href="#acknowledgments">Acknowledgments</a> •
-  <a href="#license">License</a>
-</p>
-
 
 *** 
 <h1 align="center">
