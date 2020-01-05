@@ -23,9 +23,9 @@ alt="GitHub tweet">
 <a href="https://twitter.com/intent/follow?screen_name=Mirinsoft">
  <img src="https://img.shields.io/twitter/follow/Mirinsoft?style=social&logo=twitter"alt="follow on Twitter"></a>
 
-Be sure to ⭐️ Debotnet's repo so you can keep up to date on releases and progress!
-
 </p>
+
+<p align="center">Be sure to ⭐️ Debotnet's repo so you can keep up to date on releases and progress!</p>
   
 
 *** 
