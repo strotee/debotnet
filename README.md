@@ -1,4 +1,4 @@
-`Currently are 99 privacy tweaks available (01-01-2020)`
+<p align="center"> <sup> Currently are 99 privacy tweaks available (01-01-2020) </sup> <p align="center">
  
 <p align="center">
  
