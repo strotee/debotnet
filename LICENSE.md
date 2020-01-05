@@ -6,20 +6,20 @@ IF YOU DO NOT AGREE TO THESE TERMS, PROMPTLY CEASE ALL FURTHER INSTALLATION OR U
 
 In this License, "the software" means the software product "Debotnet".
 
-SOFTWARE LICENSE
+# SOFTWARE LICENSE
 
 The software is being licensed to you free of charge for your private and also commercial use. 
 
 In last case, please consider supporting the Software via any amount of Donation.
 
-DISTRIBUTION
+# DISTRIBUTION
 
 You are free to publish or share the Software publicly with others. 
 You may edit and modify (e.g., by adding custom scripts, designs and 3rd party apps), copy, merge, redistribute and build upon the material in any medium or format.
 
 You cannot sell and redistribute it.
 
-LIABILITY
+# LIABILITY
 
 The software is distributed "AS IS". 
 No warranty of any kind is expressed or implied. You use at your own risk. 
