@@ -25,6 +25,16 @@ alt="GitHub tweet">
 
 </p>
 
+<p align="center">
+	<strong>
+		<a href="https://www.mirinsoft.com/blog/news/60-take-charge-of-locking-down-your-privacy-with-debotnet">Website</a>
+		•
+		<a href="https://github.com/mirinsoft/debotnet/tree/master/docs">Docs</a>
+		•
+		<a href="https://github.com/mirinsoft/debotnet/releases">Download</a>
+	</strong>
+</p>
+
 <p align="center">Be sure to ⭐️ Debotnet's repo so you can keep up to date on releases and progress!</p>
   
 
