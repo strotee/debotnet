@@ -1,6 +1,6 @@
 # Debotnet - Documentation
 
-### Under conctruction ...
+### Under construction ...
 
 
 <p align="center">
