@@ -16,7 +16,7 @@ alt="GitHub issues">
  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
 </a>
 
-<a href="https://twitter.com/intent/tweet?text=Reclaim your Windows 10 privacy with Debotnet!&url=https%3A%2F%2Fgithub.com%2Fmirinsoft%2Fdebotnet">
+<a href="https://twitter.com/intent/tweet?text=Debotnet is a tiny portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.&url=https%3A%2F%2Fgithub.com%2Fmirinsoft%2Fdebotnet">
 <img src="https://img.shields.io/twitter/url/https/github.com/mirinsoft/debotnet.svg?style=flat-square&logo=twitter"
 alt="GitHub tweet">
  
@@ -26,7 +26,6 @@ alt="GitHub tweet">
 </p>
 
 <p align="center">Be sure to ⭐️ Debotnet's repo so you can keep up to date on releases and progress!</p>
-
 
 *** 
 <h1 align="center">
