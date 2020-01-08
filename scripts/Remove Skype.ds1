@@ -1,5 +1,5 @@
 [Info]
-ID=RemoveSkype
+ID=Remove Skype
 Ver=1.0
 Desc=If you no longer want or use an app, then you could uninstall the app to remove it and free up space on the drive.\n\nThis script will remove the app Skype from current account only.
 Dev=Mirinsoft
