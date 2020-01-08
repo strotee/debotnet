@@ -8,15 +8,3 @@ WinVer=Compatible with Windows 10
 
 [Code]
 File1=Run,powershell -command "Get-AppxPackage *Microsoft.SkypeApp* | Remove-AppxPackage"
-
-
-
-
-
-
-
-
-
-
-
-
