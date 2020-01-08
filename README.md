@@ -118,6 +118,7 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 ## 📜 License
 100% Free, also for commercial purposes
 
+#### If you want to support me, you can donate here
 <a href="http://www.imirin.com/donate"><img src="https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square" alt="Donate Paypal"></a>
 
 <br>
