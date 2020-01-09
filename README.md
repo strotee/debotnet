@@ -128,7 +128,7 @@ Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as 
 
 <p align="center">
 	<strong>
-		<a href="https://www.mirinsoft.com/blog/news/60-take-charge-of-locking-down-your-privacy-with-debotnet">Website</a>
+		<a href="https://www.mirinsoft.com">Website</a>
 		•
 		<a href="https://github.com/mirinsoft/debotnet/tree/master/scripts">Scripts</a>
 		•
