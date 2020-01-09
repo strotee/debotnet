@@ -11,8 +11,3 @@ EvaluationColor=68217a
 [Code]
 File1=Get,https://privazer.com/de/PrivaZer.exe
 Task1=Start(),PrivaZer.exe
-
-
-
-
-
