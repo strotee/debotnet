@@ -70,6 +70,26 @@ Settings=EDEBE9
 ```
 ![alt text](https://github.com/Mirinsoft/Debotnet/blob/master/templates/norton-commander.png)
 
+Visual Studio Dark
+---
+```
+[Template]
+BackColor=1E1E1E
+FontColor=ffffff
+FontColorLight=979797
+HamburgerMenu=CCCCCC
+NavTop=323233
+NavTopFontColor=ffffff
+NavLeft=252526
+NavLeftFontColor=ffffff
+DebugFontColor=D7BA7D
+Divider=4D4D4D
+Footer=68217A
+FooterFontColor=ffffff
+Settings=D4D4D4
+```
+![alt text](https://github.com/Mirinsoft/debotnet/blob/master/templates/vscode.png)
+
 Alien
 ---
 ```
@@ -168,24 +188,3 @@ FooterFontColor=FFFFFF
 Settings=edebe9
 ```
 ![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/ccleaner.png)
-
-Visual Studio Dark
----
-```
-[Template]
-BackColor=1E1E1E
-FontColor=ffffff
-FontColorLight=979797
-HamburgerMenu=CCCCCC
-NavTop=323233
-NavTopFontColor=ffffff
-NavLeft=252526
-NavLeftFontColor=ffffff
-DebugFontColor=D7BA7D
-Divider=4D4D4D
-Footer=68217A
-FooterFontColor=ffffff
-Settings=D4D4D4
-```
-![alt text](https://github.com/Mirinsoft/debotnet/blob/master/templates/vscode.png)
-
