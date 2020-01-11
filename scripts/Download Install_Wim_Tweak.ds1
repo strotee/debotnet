@@ -9,4 +9,7 @@ Evaluation=Limited
 EvaluationColor=ffd45e
 
 [Code]
-File1=Get,https://www.deskmodder.de/blog/wp-content/uploads/2018/06/install-wim-tweak.zip
+File1=Get,https://www.deskmodder.de/blog/wp-content/uploads/2018/06/install-wim-tweak.zip,DEFAULT
+
+
+
