@@ -30,4 +30,4 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId
 echo.
 echo Press any key to exit . . . 
 pause >nul
-exit
+exit 0
