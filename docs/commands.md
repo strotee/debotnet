@@ -8,6 +8,7 @@ Command| Does...
 `Run`|Execute all sorts of commands in command-line
 `Try`|Test reg.exe queries in command-line
 `Get`|Download a file with Wget in command-line
+`GetRaw`|Download raw file content with Wget in command-line
 `Url`|Open a hyperlink in web per default web browser
 `Echo`|Test Mode ONLY in command-line
 `TaskKill`|Kill task with name or PID in command-line
