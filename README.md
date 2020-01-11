@@ -15,8 +15,6 @@ alt="GitHub issues">
 <a href="https://github.com/Mirinsoft/Debotnet/releases" target="_blank">
  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
 </a>
-
- <a href="http://www.imirin.com/donate"><img src="https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square" alt="Donate Paypal"></a>
   
 <a href="https://twitter.com/intent/tweet?text=Debotnet is a tiny portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.&url=https%3A%2F%2Fgithub.com%2Fmirinsoft%2Fdebotnet">
 <img src="https://img.shields.io/twitter/url/https/github.com/mirinsoft/debotnet.svg?style=flat-square&logo=twitter"
@@ -121,7 +119,7 @@ Please use the [official community](https://www.mirinsoft.com/community) or repo
 
 <br>
 
-Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as little apps as possible"). 
+Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as little apps as possible").
 
 
 <p align="center">
@@ -137,3 +135,5 @@ Built with ❤︎ by © [Mirinsoft](https://www.mirinsoft.com "Good apps are as 
 		<a href="https://github.com/mirinsoft/debotnet/releases">Download</a>
 	</strong>
 </p>
+
+<p align="center"><a href="http://www.imirin.com/donate"><img src="https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square" alt="Donate Paypal"></a></p>
