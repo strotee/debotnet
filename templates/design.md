@@ -187,4 +187,5 @@ Footer=68217A
 FooterFontColor=ffffff
 Settings=D4D4D4
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/vscode.png)
+![alt text](https://github.com/Mirinsoft/debotnet/blob/master/templates/vscode.png)
+
