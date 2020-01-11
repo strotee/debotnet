@@ -30,7 +30,7 @@ alt="GitHub tweet">
 *** 
 <h1 align="center">
 <sub>
-<img  src="https://github.com/Mirinsoft/Debotnet/raw/master/debotnet-dim.png"
+<img  src="https://github.com/Mirinsoft/Debotnet/raw/master/debotnet.png"
       height="38"
       width="38">
 </sub>
@@ -44,7 +44,7 @@ A free and portable tool for controlling Windows 10's many privacy-related setti
 
 *** 
 
-![alt text](https://github.com/mirinsoft/debotnet/blob/master/templates/debotnet.png)
+![alt text](https://github.com/mirinsoft/debotnet/blob/master/templates/debotnet-dim.png)
 *Custom templates can be found [here](https://github.com/mirinsoft/debotnet/blob/master/templates/design.md)*
 
 ## Reclaim privacy on Windows 10 with Debotnet!
