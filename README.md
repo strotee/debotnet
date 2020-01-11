@@ -30,7 +30,7 @@ alt="GitHub tweet">
 *** 
 <h1 align="center">
 <sub>
-<img  src="https://github.com/Mirinsoft/Debotnet/raw/master/debotnet.png"
+<img  src="https://github.com/Mirinsoft/Debotnet/raw/master/debotnet-dim.png"
       height="38"
       width="38">
 </sub>
