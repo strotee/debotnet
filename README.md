@@ -45,7 +45,6 @@ A free and portable tool for controlling Windows 10's many privacy-related setti
 *** 
 
 
-![alt text](https://www.mirinsoft.com/images/news/debotnet-intro.png)
 *Custom templates can be found [here](https://github.com/mirinsoft/debotnet/blob/master/templates/design.md)*
 
 ## Reclaim privacy on Windows 10 with Debotnet!
