@@ -10,6 +10,26 @@ Full compatibility with Debotnet v0.2.2 and later.
 
 # You will find here custom design code
 
+Debotnet Dimmed
+---
+```
+[Template]
+BackColor=F8F1DE
+FontColor=123842
+FontColorLight=9BA6A5
+HamburgerMenu=536D6D
+NavTop=EEE8D5
+NavTopFontColor=2C4F54
+NavLeft=BBB5A7
+NavLeftFontColor=2C4F54
+DebugFontColor=B58900
+Divider=93A1A1
+Footer=F8F1DE
+FooterFontColor=426063
+Settings=BBB5A7
+```
+![alt text](https://github.com/Mirinsoft/Debotnet/blob/master/templates/debotnet-dim.png)
+
 Windows PowerShell
 ---
 ```
@@ -149,22 +169,22 @@ Settings=edebe9
 ```
 ![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/ccleaner.png)
 
-Visual Studio Code
+Visual Studio Dark
 ---
 ```
 [Template]
-BackColor=ffffff
-FontColor=000000
-FontColorLight=006AB1
-HamburgerMenu=000000
-NavTop=E4E4E4
-NavTopFontColor=000000
-NavLeft=2C2C2C
+BackColor=1E1E1E
+FontColor=ffffff
+FontColorLight=979797
+HamburgerMenu=CCCCCC
+NavTop=323233
+NavTopFontColor=ffffff
+NavLeft=252526
 NavLeftFontColor=ffffff
-DebugFontColor=2881BD
-Divider=F3F3F3
+DebugFontColor=D7BA7D
+Divider=4D4D4D
 Footer=68217A
 FooterFontColor=ffffff
-Settings=E4E6F1
+Settings=D4D4D4
 ```
 ![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/vs-code.png)
