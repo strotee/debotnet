@@ -7,7 +7,7 @@ Command| Does...
 `Reg`|Execute reg.exe in command-line
 `Run`|Execute all sorts of commands in command-line
 `Try`|Test reg.exe queries in command-line
-`Get`|Download a file with Wget in command-line
+`Get`|Download a file with Wget in command-line. Support `DEFAULT` paramter, to download content to output diretory set in Settings menu, or setting an custom output path after download URL, e.g. `Get,http://www.imirin.com/files/16/Cleanmgr/1/Cleanmgr.zip,C:\%UserProfile\Desktop\Debotnet-Files` 
 `GetRaw`|Download raw file content with Wget in command-line
 `Url`|Open a hyperlink in web per default web browser
 `Echo`|Test Mode ONLY in command-line
