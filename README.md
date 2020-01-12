@@ -33,8 +33,7 @@ alt="GitHub tweet">
 <img  src="https://github.com/Mirinsoft/Debotnet/raw/master/debotnet.png"
       height="38"
       width="38">
-</sub>
-Debotnet - Your copy of Windows 10 is now Debotnetted!
+</sub>Under construction ...
 </h1>
 
 <p align="center">
