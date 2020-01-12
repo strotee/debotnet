@@ -10,7 +10,7 @@ alt="GitHub last commit">
 alt="GitHub issues">   
  
 <a href="https://github.com/Mirinsoft/Debotnet/releases/latest" target="_blank">
- <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg" />
+ <img alt="Latest GitHub release" src="https://img.shields.io/github/release/mirinsoft/debotnet.svg?style=flat-square" />
 </a>
 <a href="https://github.com/Mirinsoft/Debotnet/releases" target="_blank">
  <img alt="Downloads on GitHub" src="https://img.shields.io/github/downloads/Mirinsoft/debotnet/total.svg?style=flat-square" />
