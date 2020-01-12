@@ -1,8 +1,13 @@
-# Debotnet - Documentation
+*** 
+<h1 align="center">
+<sub>
+<img  src="https://github.com/mirinsoft/debotnet/blob/master/docs/img/wiki.png"
+</sub>
 
-### Under construction ...
+Debotnet - Documentation
 
-![alt text](https://github.com/mirinsoft/debotnet/blob/master/docs/img/wiki.png)
+</h1>
+
 
 <p align="center">
 	<strong>
@@ -15,3 +20,4 @@
 		<a href="https://github.com/mirinsoft/debotnet/releases">Download</a>
 	</strong>
 </p>
+
