@@ -2,7 +2,7 @@
 
 ### Under construction ...
 
-![alt text](https://github.com/mirinsoft/debotnet/tree/master/docs/img/wiki.png)
+![alt text](https://github.com/mirinsoft/debotnet/blob/master/docs/img/wiki.png)
 
 <p align="center">
 	<strong>
