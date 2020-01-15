@@ -14,10 +14,8 @@ Task2=Run,net stop dmwappushsvc,STDOUT
 Task3=Try,query "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v AllowTelemetry,STDOUT
 File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v AllowTelemetry /t REG_DWORD /d 1 /f,STDOUT
 
-
-
-
-
-
-
+[Undo]
+Task1=Run,net start DiagTrack,STDOUT
+Task2=Run,net start dmwappushsvc,STDOUT
+File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection" /v AllowTelemetry /t REG_DWORD /d 3 /f,STDOUT
 

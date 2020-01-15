@@ -11,5 +11,5 @@ EvaluationColor=009e5e
 [Code]
 File1=Start,ms-settings:windowsupdate-action
 
-
-
+[NoUndo]
+Info1=Msg,This script will open ONLY the Windows updates.\nNo system changes are made here!

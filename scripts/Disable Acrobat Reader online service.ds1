@@ -26,15 +26,12 @@ File6=Reg,add "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cS
 File7=Reg,add "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bAdobeSendPluginToggle" /t REG_SZ /d 1 /f,STDOUT
 File8=Reg,add "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bUpdater" /t REG_SZ /d 0 /f,STDOUT
 
-
-
-
-
-
-
-
-
-
-
-
-
+[Undo]
+File1=Reg,delete "HKCU\Software\Adobe\Adobe ARM\1.0\ARM" /v "iCheck" /t REG_SZ /d 0 /f,STDOUT
+File2=Reg,delete "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown" /v "cSharePoint" /f,STDOUT
+File3=Reg,delete "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bToggleAdobeDocumentServices" /f,STDOUT
+File4=Reg,delete "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bToggleAdobeSign" /f,STDOUT
+File5=Reg,delete "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bTogglePrefSync" /f,STDOUT
+File6=Reg,delete "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bToggleWebConnectors" /f,STDOUT
+File7=Reg,delete "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bAdobeSendPluginToggle" /f,STDOUT
+File8=Reg,add "HKLM\SOFTWARE\Policies\Adobe\Acrobat Reader\DC\FeatureLockdown\cServices" /v "bUpdater" /t REG_SZ /d 1 /f,STDOUT

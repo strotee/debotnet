@@ -16,7 +16,7 @@ Task4=Try,query "HKCU\Software\Piriform\CCleaner" /v SystemMonitoringRunningNoti
 Task5=Try,query "HKCU\Software\Piriform\CCleaner" /v UpdateAuto,STDOUT
 Task6=Try,query "HKCU\Software\Piriform\CCleaner" /v UpdateCheck,STDOUT
 Task7=Run,TASKKILL /F /FI "IMAGENAME eq CCleaner*",STDOUT
-Task8=Run,SCHTASKS /Change /TN "CCleaner Update" /DISABLE,STDOUT
+Task8=Run,SCHTASKS /Change /TN "CCleaner Update" /Disable,STDOUT
 File1=Reg,add "HKCU\Software\Piriform\CCleaner" /v "Monitoring" /t REG_SZ /d 0 /f,STDOUT
 File2=Reg,add "HKCU\Software\Piriform\CCleaner" /v "HelpImproveCCleaner" /t REG_SZ /d 0 /f,STDOUT
 File3=Reg,add "HKCU\Software\Piriform\CCleaner" /v "SystemMonitoring" /t REG_SZ /d 0 /f,STDOUT
@@ -24,4 +24,11 @@ File4=Reg,add "HKCU\Software\Piriform\CCleaner" /v "SystemMonitoringRunningNotif
 File5=Reg,add "HKCU\Software\Piriform\CCleaner" /v "UpdateAuto" /t REG_SZ /d 0 /f,STDOUT
 File6=Reg,add "HKCU\Software\Piriform\CCleaner" /v "UpdateCheck" /t REG_SZ /d 0 /f,STDOUT
 
-
+[Undo]
+Task1=Run,SCHTASKS /Change /TN "CCleaner Update" /Enable,STDOUT
+File1=Reg,add "HKCU\Software\Piriform\CCleaner" /v "Monitoring" /t REG_SZ /d 1 /f,STDOUT
+File2=Reg,add "HKCU\Software\Piriform\CCleaner" /v "HelpImproveCCleaner" /t REG_SZ /d 1 /f,STDOUT
+File3=Reg,add "HKCU\Software\Piriform\CCleaner" /v "SystemMonitoring" /t REG_SZ /d 1 /f,STDOUT
+File4=Reg,add "HKCU\Software\Piriform\CCleaner" /v "SystemMonitoringRunningNotification" /t REG_SZ /d 1 /f,STDOUT
+File5=Reg,add "HKCU\Software\Piriform\CCleaner" /v "UpdateAuto" /t REG_SZ /d 1 /f,STDOUT
+File6=Reg,add "HKCU\Software\Piriform\CCleaner" /v "UpdateCheck" /t REG_SZ /d 1 /f,STDOUT

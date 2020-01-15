@@ -12,17 +12,6 @@ EvaluationColor=c14566
 [Code]
 File1=Run,powershell -command "Get-AppxPackage *Microsoft.WindowsStore* | Remove-AppxPackage",SHOWCLI
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Undo]
+Info1=Msg,This script does not support re-installing built-in apps.\nYou will find tutorials (e.g. with PowerShell commands) on the web how to restore them in your computer.
 

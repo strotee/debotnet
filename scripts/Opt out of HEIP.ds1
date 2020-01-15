@@ -11,3 +11,6 @@ EvaluationColor=009e5e
 [Code]
 Task1=Try,query "HKCU\Software\Microsoft\Assistance\Client\1.0\Settings" /v ImplicitFeedback,STDOUT
 File1=Reg,add "HKCU\Software\Microsoft\Assistance\Client\1.0\Settings" /v ImplicitFeedback /t REG_DWORD /d 0 /f,STDOUT
+
+[Undo]
+File1=Reg,add "HKCU\Software\Microsoft\Assistance\Client\1.0\Settings" /v ImplicitFeedback /t REG_DWORD /d 1 /f,STDOUT

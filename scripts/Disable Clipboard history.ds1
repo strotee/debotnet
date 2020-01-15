@@ -12,3 +12,5 @@ EvaluationColor=562765
 Task1=Try,query "HKCU\Software\Microsoft\Clipboard" /v EnableClipboardHistory,STDOUT
 File1=Reg,add "HKCU\Software\Microsoft\Clipboard" /v EnableClipboardHistory /t REG_DWORD /d 0 /f,STDOUT
 
+[Undo]
+File1=Reg,add "HKCU\Software\Microsoft\Clipboard" /v EnableClipboardHistory /t REG_DWORD /d 1 /f,STDOUT

@@ -10,3 +10,6 @@ EvaluationColor=009e5e
 
 [Code]
 File1=Start,ms-windows-store://downloadsandupdates
+
+[Undo]
+Info1=Msg,This script will open ONLY the App store updates.\nNo system changes are made here!

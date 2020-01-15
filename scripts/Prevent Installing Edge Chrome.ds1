@@ -11,3 +11,6 @@ EvaluationColor=562765
 [Code]
 Task1=Try,query "HKLM\SOFTWARE\Microsoft" /v DoNotUpdateToEdgeWithChromium,STDOUT
 File1=Reg,add "HKLM\SOFTWARE\Microsoft" /v DoNotUpdateToEdgeWithChromium /t REG_DWORD /d 1 /f,STDOUT
+
+[Undo]
+File1=Reg,add "HKLM\SOFTWARE\Microsoft" /v DoNotUpdateToEdgeWithChromium /t REG_DWORD /d 0 /f,STDOUT

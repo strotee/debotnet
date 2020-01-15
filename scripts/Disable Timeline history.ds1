@@ -12,5 +12,8 @@ EvaluationColor=562765
 Task1=Try,query "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v EnableActivityFeed,STDOUT
 File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v EnableActivityFeed /t REG_DWORD /d 0 /f,STDOUT
 
+[Undo]
+File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\System" /v EnableActivityFeed /t REG_DWORD /d 1 /f,STDOUT
+
 
 

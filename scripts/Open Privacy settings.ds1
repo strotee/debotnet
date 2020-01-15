@@ -11,3 +11,5 @@ EvaluationColor=009e5e
 [Code]
 File1=Start,ms-settings:privacy-general
 
+[Undo]
+Info1=Msg,This script will open ONLY the Privacy settings app.\nNo system changes are made here!

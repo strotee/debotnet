@@ -11,3 +11,5 @@ EvaluationColor=009e5e
 [Code]
 File1=Run,powershell -command Checkpoint-Computer -Description "Debotnet" -RestorePointType "MODIFY_SETTINGS",STDOUT
 
+[Undo]
+Info1=Msg,This script will create an System restore point.\nNo system changes are made here!

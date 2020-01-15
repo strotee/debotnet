@@ -10,3 +10,6 @@ EvaluationColor=009e5e
 
 [Code]
 File1=Run,net stop DiagTrack.exe,STDOUT
+
+[Undo]
+File1=Run,net start DiagTrack.exe,STDOUT

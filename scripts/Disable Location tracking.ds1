@@ -12,4 +12,5 @@ EvaluationColor=562765
 Task1=Try,query "HKCU\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location" /v Value,STDOUT
 File1=Reg,add "HKCU\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location" /v Value /t REG_SZ /d Deny /f,STDOUT
 
-
+[Undo]
+File1=Reg,add "HKCU\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location" /v Value /t REG_SZ /d Allow /f,STDOUT

@@ -13,3 +13,7 @@ Task1=Try,query "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reportin
 Task2=Try,query "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disabled,STDOUT
 File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 1 /f,STDOUT
 File2=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 1 /f,STDOUT
+
+[Undo]
+File1=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 0 /f,STDOUT
+File2=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting" /v Disabled /t REG_DWORD /d 0 /f,STDOUT

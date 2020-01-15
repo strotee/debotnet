@@ -12,9 +12,5 @@ EvaluationColor=68217a
 File1=Get,https://patchmypc.net/freeupdater/PatchMyPC.exe,DEFAULT
 Task1=Start(),PatchMyPC.exe
 
-
-
-
-
-
-
+[Undo]
+Info1=Msg,This script will ONLY download an application.\nNo system changes are made here!

@@ -11,3 +11,6 @@ EvaluationColor=009e5e
 [Code]
 Task1=Try,query "HKCU\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo" /v Enabled,STDOUT
 File1=Reg,add "HKCU\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo" /v Enabled /t REG_DWORD /d 0 /f,STDOUT
+
+[Undo]
+File1=Reg,add "HKCU\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo" /v Enabled /t REG_DWORD /d 1 /f,STDOUT
