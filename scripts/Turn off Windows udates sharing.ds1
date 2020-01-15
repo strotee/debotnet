@@ -12,5 +12,5 @@ EvaluationColor=ffd45e
 Task1=Try,query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode,STDOUT
 File1=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode /t REG_DWORD /d 0 /f,STDOUT
 
-
-
+[Undo]
+File1=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config" /v DODownloadMode /t REG_DWORD /d 3 /f,STDOUT
