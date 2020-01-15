@@ -10,5 +10,8 @@ Evaluation=Custom
 EvaluationColor=562765
 
 [Code]
-Task1=Try,query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager" /v ShippedWithReserves
-File1=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager" /v ShippedWithReserves /t "REG_DWORD" /d "0" /f,STDOUT
+Task1=Try,query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager"
+File1=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager" /v "ShippedWithReserves" /t REG_DWORD /d 0 /f,STDOUT
+
+[Undo]
+File1=Reg,add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ReserveManager" /v "ShippedWithReserves" /t REG_DWORD /d 1 /f,STDOUT

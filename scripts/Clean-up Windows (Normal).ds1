@@ -11,9 +11,5 @@ EvaluationColor=68217a
 [Code]
 File1=Get,http://www.imirin.com/files/16/Cleanmgr/1/Cleanmgr.zip,DEFAULT
 
-
-
-
-
-
-
+[Undo]
+Info1=Msg,This script will ONLY download an application.\nNo system changes are made here!

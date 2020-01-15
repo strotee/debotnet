@@ -12,11 +12,16 @@ EvaluationColor=562765
 [Code]
 Task1=Run,powershell -command Disable-ComputerRestore -Drive C:\,STDOUT
 Task2=Run,vssadmin delete shadows /all /Quiet,STDOUT
-Task3=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v "DisableConfig" /t "REG_DWORD" /d "1" /f,STDOUT
-Task4=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v "DisableSR " /t "REG_DWORD" /d "1" /f,STDOUT
-Task5=Reg,add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v "DisableConfig" /t "REG_DWORD" /d "1" /f,STDOUT
-Task6=Reg,add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v "DisableSR " /t "REG_DWORD" /d "1" /f,STDOUT
+Task3=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v DisableConfig /t REG_DWORD /d 1 /f,STDOUT
+Task4=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v DisableSR /t REG_DWORD /d 1 /f,STDOUT
+Task5=Reg,add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v DisableConfig /t "REG_DWORD /d "1" /f,STDOUT
+Task6=Reg,add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v DisableSR /t REG_DWORD /d 1 /f,STDOUT
 Task7=Run,schtasks /Change /TN "\Microsoft\Windows\SystemRestore\SR" /disable,STDOUT
 
-
-
+[Undo]
+Task1=Run,powershell -command Enable-ComputerRestore -Drive C:\,STDOUT
+Task2=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v DisableConfig /t REG_DWORD /d 0 /f,STDOUT
+Task3=Reg,add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore" /v DisableSR /t REG_DWORD /d 0 /f,STDOUT
+Task4=Reg,add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v DisableConfig /t REG_DWORD /d 0 /f,STDOUT
+Task5=Reg,add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v DisableSR /t REG_DWORD /d 0 /f,STDOUT
+Task6=Run,schtasks /Change /TN "\Microsoft\Windows\SystemRestore\SR" /enable,STDOUT

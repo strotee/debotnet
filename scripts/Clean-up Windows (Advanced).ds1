@@ -9,10 +9,8 @@ Evaluation=Privacy App
 EvaluationColor=68217a
 
 [Code]
-File1=Get,https://privazer.com/de/PrivaZer.exe
+File1=Get,https://privazer.com/de/PrivaZer.exe,DEFAULT
 Task1=Start(),PrivaZer.exe
 
-
-
-
-
+[Undo]
+Info1=Msg,This script will ONLY download an application.\nNo system changes are made here!

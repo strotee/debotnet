@@ -10,3 +10,6 @@ EvaluationColor=68217a
 
 [Code]
 File1=Url,https://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy-tools/
+
+[Undo]
+Info1=Msg,This script will open ONLY an URL.\nNo system changes are made here!
