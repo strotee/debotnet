@@ -71,7 +71,7 @@ This qualifies Windows 10 as malware, and more specifically, a botnet.
 * Simple scripting engine for adding custom privacy rules
 * Debug mode. E.g. the Test mode lets you see which values are twisted in registry or commands executed
 * Scripts updated on GitHub
-* Modern and familiar UI, with [template support](https://github.com/mirinsoft/debotnet/blob/master/templates/design.md)
+* Modern and familiar UI, with [theme support](https://github.com/mirinsoft/debotnet/blob/master/themes/theme.md)
 * Small footprint. No installation required.
 * Portable
 
