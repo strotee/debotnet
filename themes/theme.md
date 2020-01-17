@@ -110,7 +110,7 @@ Footer=333333
 FooterFontColor=6CC655
 Settings=EDEBE9
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/themes/alien.png)
+![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/alien.png)
 
 Dark Knight
 ---
@@ -130,7 +130,7 @@ Footer=1D1D1D
 FooterFontColor=FFFFFF
 Settings=D4145A
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/themes/dark-knight.png)
+![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/dark-knight.png)
 
 Open Water
 ---
@@ -149,7 +149,7 @@ Footer=2B2B2B
 FooterFontColor=999999
 Settings=39BDEE
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/themes/open-water.png)
+![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/open-water.png)
 
 Windows Terminal
 ---
@@ -169,7 +169,7 @@ Footer=012456
 FooterFontColor=CCCCCC
 Settings=CCCCCC
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/themes/windows-terminal.png)
+![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/windows-terminal.png)
 
 CCleaner
 ---
@@ -189,4 +189,4 @@ Footer=4D4D4D
 FooterFontColor=FFFFFF
 Settings=edebe9
 ```
-![alt text](https://github.com/Mirinsoft/Roboget/blob/master/themes/ccleaner.png)
+![alt text](https://github.com/Mirinsoft/Roboget/blob/master/templates/ccleaner.png)
