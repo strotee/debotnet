@@ -10,6 +10,8 @@ Full compatibility with Debotnet v0.2.2 and later. Some templates use design cod
 
 # You will find here custom design code
 
+![alt text](https://github.com/Mirinsoft/Debotnet/blob/master/templates/debotnet.png)
+
 Debotnet Dimmed
 ---
 ```
