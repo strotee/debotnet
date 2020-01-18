@@ -7,9 +7,9 @@ All design files are located in \bin\ directory of Debotnet and can be viewed as
 Just copy one of the following [Theme] sections (or create a new) into a text file, save it as .DESIGN filetype and move it to the above mentioned directory of Debotnet. You're done!
 
 #### Info
-Debotnet 0.2.8 and earlier versions uses [Template] section for design elements. If you are wokring, with this versions, please replace in the .DESIGN files [Theme] > [Template]
+Debotnet 0.2.8 and earlier versions uses [Template] section for design elements. If you are wokring with this versions, please replace in the .DESIGN files [Theme] > [Template]
 
-Full compatibility with Debotnet v0.2.2 and later. Some templates use design code of our app Roboget @https://github.com/mirinsoft/Roboget as the form UI is based upon this application.
+All theme files are full compatible with Debotnet v0.2.2 and later. Some templates use design code of our app Roboget @https://github.com/mirinsoft/Roboget as the form UI is based upon this application.
 
 # You will find here custom design code
 
