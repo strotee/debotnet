@@ -4,7 +4,10 @@ To enable another design, just open Settings > Change design.
 All design files are located in \bin\ directory of Debotnet and can be viewed as plain text, with an editor of your choice.
 
 # How to create a design file?
-Just copy one of the following [Template] sections (or create a new) into a text file, save it as .DESIGN filetype and move it to the above mentioned directory of Debotnet. You're done!
+Just copy one of the following [Theme] sections (or create a new) into a text file, save it as .DESIGN filetype and move it to the above mentioned directory of Debotnet. You're done!
+
+#### Info
+Debotnet 0.2.8 and earlier versions uses [Template] section for design elements. If you are wokring, with this versions, please replace in the .DESIGN files [Theme] > [Template]
 
 Full compatibility with Debotnet v0.2.2 and later. Some templates use design code of our app Roboget @https://github.com/mirinsoft/Roboget as the form UI is based upon this application.
 
@@ -15,7 +18,7 @@ Full compatibility with Debotnet v0.2.2 and later. Some templates use design cod
 Debotnet Dimmed
 ---
 ```
-[Template]
+[Theme]
 BackColor=F8F1DE
 FontColor=123842
 FontColorLight=9BA6A5
@@ -35,7 +38,7 @@ Settings=BBB5A7
 Windows PowerShell
 ---
 ```
-[Template]
+[Theme]
 BackColor=012456
 FontColor=ffffff
 FontColorLight=dbff00
@@ -55,7 +58,7 @@ Settings=EDEBE9
 Norton Commander 
 ---
 ```
-[Template]
+[Theme]
 BackColor=0402AC
 FontColor=30DCFC
 FontColorLight=FCFE64
@@ -75,7 +78,7 @@ Settings=EDEBE9
 Visual Studio Dark
 ---
 ```
-[Template]
+[Theme]
 BackColor=1E1E1E
 FontColor=ffffff
 FontColorLight=979797
@@ -92,10 +95,30 @@ Settings=D4D4D4
 ```
 ![alt text](https://github.com/Mirinsoft/debotnet/blob/master/themes/vscode.png)
 
+Chroma
+---
+```
+[Theme]
+BackColor=2D2D2D
+FontColor=AEAEAE
+FontColorLight=536D6D
+HamburgerMenu=E5E6E8
+NavTop=4F4F4F
+NavTopFontColor=E5E6E8
+NavLeft=2D2D2D
+NavLeftFontColor=AEAEAE
+DebugFontColor=E5E6E8
+Divider=9200FF
+Footer=2D2D2D
+FooterFontColor=AEAEAE
+Settings=BBB5A7
+```
+![alt text](https://github.com/Mirinsoft/debotnet/blob/master/themes/chroma.png)
+
 Alien
 ---
 ```
-[Template]
+[Theme]
 BackColor=000000
 FontColor=FFFFFF
 FontColorLight=B2B2B2
@@ -115,7 +138,7 @@ Settings=EDEBE9
 Dark Knight
 ---
 ```
-[Template]
+[Theme]
 BackColor=3A3A3A
 FontColor=FFFFFF
 FontColorLight=D4145A
@@ -135,7 +158,7 @@ Settings=D4145A
 Open Water
 ---
 ```
-[Template]
+[Theme]
 BackColor=E9EBEE
 FontColor=000000
 FontColorLight=999999
@@ -154,7 +177,7 @@ Settings=39BDEE
 Windows Terminal
 ---
 ```
-[Template]
+[Theme]
 BackColor=012456
 FontColor=CCCCCC
 FontColorLight=FFFFFF
@@ -174,7 +197,7 @@ Settings=CCCCCC
 CCleaner
 ---
 ```
-[Template]
+[Theme]
 BackColor=F2F2F2
 FontColor=000000
 FontColorLight=828282
