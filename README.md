@@ -1,4 +1,4 @@
-<p align="center"> <sup> Currently are 107 privacy scripts available (01-11-2020) </sup> <p align="center">
+<p align="center"> <sup> Currently are 108 privacy scripts available (01-19-2020) </sup> <p align="center">
  
 <p align="center">
  
